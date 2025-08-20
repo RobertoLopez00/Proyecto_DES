@@ -21,7 +21,7 @@ namespace SistemaVentas
             this.db = "sistemaventas";
             this.servidor = "localhost";
             this.usuario = "root";
-            this.contrasena = "";
+            this.contrasena = "PA$$123";
             this.ssl = "None";
         }
 
@@ -30,7 +30,7 @@ namespace SistemaVentas
             MySqlConnection cadena = new MySqlConnection();
             try
             {
-                cadena.ConnectionString = "Database=" + db + "; Data Source=" + servidor + "; User Id=" + usuario + "; Password=" + contrasena + "; SSL Mode=" + ssl + ";";
+                cadena.ConnectionString = "Database=" + db + "; Data Source=" + servidor + "; User Id=" + usuario + "; Password=" + contrasena + "; SSL Mode=" + ssl + "; CharSet=utf8mb4;";
             }
             catch (Exception ex)
             {

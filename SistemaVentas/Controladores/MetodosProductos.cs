@@ -214,14 +214,13 @@ namespace SistemaVentas.Clases
 
                 while (resultado.Read())
                 {
-
                     producto = new Producto(
-                        resultado.GetString(0),
-                        resultado.GetString(1),
-                        resultado.GetString(2),
-                        resultado.GetString(3),
-                        resultado.GetString(4)
-                        );
+                        resultado.GetString(0), // idProducto
+                        resultado.GetString(1), // nomProducto
+                        resultado.GetInt32(2).ToString(), // stock
+                        resultado.GetDouble(3).ToString(), // precio
+                        resultado.GetString(4) // descripcion
+                    );
                 }
 
                 return producto;

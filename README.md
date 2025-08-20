@@ -18,6 +18,7 @@
 - Figma: https://www.figma.com/design/kx7gLQ3ZeMFZgpAKT0qDmA/Untitled?node-id=0-1&t=7znhDejoTGHnWRCB-1
 
 ## Licencias Creative Commons
+- Proyecto DES  © 2025 by Roberto Lopez is licensed under CC BY-NC-ND 4.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/4.0/ 
 
 ## Descripción
 Este proyecto consiste en el desarrollo de un sistema de control de inventario diseñado para pequeñas y medianas empresas.
